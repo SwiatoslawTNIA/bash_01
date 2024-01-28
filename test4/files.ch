@@ -27,7 +27,7 @@ fi
 #check if the we can read the file:
 file=/etc/passwd
 
-if [ -e $file ] 
+if [ -f $file ] 
 then
 	if [ -r $file ]
 	then
@@ -39,4 +39,36 @@ then
 else
 	echo The file does not exist.
 fi
+file=~/Documents/shell_scripting/Start/test4/jump.sh
+if [ -f $file ] 
+then
+	if [ -s $file ]
+	then
+		echo The file $file contains data
+		tail $file
+	else
+		echo The file $file is empty
+	fi
+else
+	echo The file $file does not exist.
+fi
+#to check whether I own the /etc/passwd:
+if [ -O /etc/passwd ]
+then 
+	echo You are the owner of /etc/passwd
+else 
+	echo Sorry, you are not the owner of the /etc/passwd
+fi 
 
+#testing compound comparisons:
+new_file=/etc/passwd
+if [ -d $new_file ] 
+then 
+	echo Sorry, the file $new_file is a dir.
+else
+	if [ -f $new_file ] && [ -r $new_file ];then 
+		echo the file $new_file exists, it is a file and you can read it.
+	elif [ -f $new_file ] &&  { [ -r $new_file ] || [ -x $new_file ]; }; then
+		echo the file $new_file exists, and you can either write or execute it, or both.
+	fi
+fi
