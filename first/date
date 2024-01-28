@@ -1,0 +1,5 @@
+#!/bin/bash
+#Store the date in the log file:
+time=$(date +%y%m%d)
+ls /usr/bin -al > log.$time
+

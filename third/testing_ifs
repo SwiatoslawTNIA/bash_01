@@ -1,0 +1,12 @@
+#!/bin/bash
+#Testing ifs:
+if pwd
+then 
+	echo The pwd command executed with exit code 0
+fi
+#Testing a bad command:
+if a_very_bady_command
+then 
+	echo The a_very_bady_command was not found...
+fi
+

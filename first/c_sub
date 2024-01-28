@@ -1,0 +1,6 @@
+#!/bin/bash
+#The command substitution testing:
+test_1=`date`
+test_2=${date}
+echo $test_1 "==" $test_2
+

@@ -1,0 +1,21 @@
+#!/bin/bash
+#The calculator_usage experience gaining:
+var1=14.12
+var2=25.42
+var3=-324
+var4=4
+res=$(bc << EOF
+scale = 55
+a = $var1 - $var2
+b = ($var3 + $var4) / 4
+a + b / 5
+EOF
+)
+echo The result: $res
+
+exit 15
+
+
+
+
+

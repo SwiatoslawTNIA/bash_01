@@ -1,0 +1,13 @@
+Fr 26 Jän 2024 06:45:18 CET
+total 136
+drwxrwxr-x 2 swiatoslaw swiatoslaw  4096 Jän 26 06:45 ./
+drwxrwxr-x 3 swiatoslaw swiatoslaw  4096 Jän 26 05:32 ../
+-rwxr-x--- 1 swiatoslaw swiatoslaw   103 Jän 26 06:31 c_sub*
+-rwxr-x--- 1 swiatoslaw swiatoslaw    95 Jän 26 06:37 date*
+-rwxrwxr-- 1 swiatoslaw swiatoslaw    54 Jän 26 05:36 file1*
+-rwxrwxr-- 1 swiatoslaw swiatoslaw   180 Jän 26 05:58 file_my*
+-rw-rw-r-- 1 swiatoslaw swiatoslaw 96846 Jän 26 06:37 log.240126
+-rw-rw-r-- 1 swiatoslaw swiatoslaw   639 Jän 26 06:44 test_1
+-rw-rw-r-- 1 swiatoslaw swiatoslaw    29 Jän 26 06:45 test_2
+-rwxrw-r-- 1 swiatoslaw swiatoslaw   198 Jän 26 06:21 testing_vars*
+-rwxr-x--- 1 swiatoslaw swiatoslaw   146 Jän 26 06:06 user_info*

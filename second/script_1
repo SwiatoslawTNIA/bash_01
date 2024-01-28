@@ -1,0 +1,14 @@
+#!/bin/bash
+#var1=100
+#var2=50
+#var3=45
+#var4=$[$var1 * ($var2 - $var3)]
+#echo The final result is $var4
+
+var1=$(echo "scale=5;3.14 / 5;" | bc)
+echo The result of the output is $var1
+
+
+name="John"
+echo the name of Julius is $name
+

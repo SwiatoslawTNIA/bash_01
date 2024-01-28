@@ -1,0 +1,6 @@
+#!/bin/bash
+#This app displays the user's information:
+echo USER: $USER
+echo HOME: $HOME
+echo UID: $UID
+echo "The price for this program is 15$" 

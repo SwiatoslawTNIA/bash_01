@@ -1,0 +1,10 @@
+#!/bin/bash
+#Testing the if statement further:
+user=swiatoslaw
+if grep $user /etc/passwd
+then 
+	echo "The grep command run with exit code 0"
+	echo "The result is the following output:"
+	ls -alF /home/$user/.b*
+fi
+

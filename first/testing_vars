@@ -1,0 +1,10 @@
+#!/bin/bash
+#Testing variables:
+name=Jessica
+age=15
+echo "In our place lives $name, age $age"
+name=Jennifer
+age=18
+echo "I can't see $name, age $age"
+age_copy=$age
+echo "The Jennifer's age is $age"

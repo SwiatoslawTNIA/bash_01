@@ -1,0 +1,8 @@
+#!/bin/bash
+#The program comment:
+var1=100
+var2=33
+res=$(echo "scale=10; $var1 / $var2" | bc) 
+echo The result after 1. computation is approximately $res
+res_1=$(echo "scale=4; $res / 7" | bc)
+echo The final answer is $res_1
