@@ -1,0 +1,1 @@
+sh: 65: Syntax error: "&" unexpected
