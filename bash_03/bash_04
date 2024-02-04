@@ -1,0 +1,12 @@
+#!/bin/bash
+#Trap the exit signal:
+trap "echo 'Exiting...'" EXIT
+count=1
+while [ $count -le 5 ] 
+do 
+	sleep 5
+	echo "Loop #$count"
+	count=$[ $count + 1 ]
+done
+
+
